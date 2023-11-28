@@ -1,7 +1,7 @@
 import "./styles/App.css";
 
 function App() {
-  return <div>태스트</div>;
+  return <div>테스트</div>;
 }
 
 export default App;
