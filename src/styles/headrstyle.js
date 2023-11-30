@@ -9,7 +9,7 @@ export const TopBar = styled.header`
   justify-content: space-between;
   gap: 6px;
   flex-shrink: 0;
-  background: #fef7ff;
+  background:  rgb(221, 221, 255) ;
   h2 {
     font-weight: 400;
   }

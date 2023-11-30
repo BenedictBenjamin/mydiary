@@ -8,4 +8,5 @@ export const BotBar = styled.footer`
   align-items: center;
   gap: 276px;
   flex-shrink: 0;
+  background:  rgb(221, 221, 255) ;
 `;
