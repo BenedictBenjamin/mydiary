@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="layout">
       <div className="wrap">
-      <Routes>
+        <Routes>
           <Route path="/" element={<Intro />}></Route>
           <Route path="/home" element={<Index />}></Route>
           <Route path="/diary" element={<DiayIndex />}></Route>
-          <Route path="/diary/add"  element={<DiaryAdd />}></Route>
-          <Route path="/diary/edit/:pk"  element={<DiaryEdit />}></Route>
+          <Route path="/diary/add" element={<DiaryAdd />}></Route>
+          <Route path="/diary/edit/1" element={<DiaryEdit />}></Route>
         </Routes>
         {/* <Intro></Intro>
         <Index></Index>

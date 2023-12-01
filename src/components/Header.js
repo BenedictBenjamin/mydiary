@@ -3,8 +3,12 @@ import { TopBar } from "../styles/headrstyle";
 const Header = props => {
   return (
     <TopBar>
-      <button onClick={() => {}}>
-        <img src="/images/bt_list.svg" />
+      <button
+        onClick={() => {
+          props.handleClickMenu();
+        }}
+      >
+        <img src={`/images/${props.icon}`} />
       </button>
 
       <h2>{props.children}</h2>
